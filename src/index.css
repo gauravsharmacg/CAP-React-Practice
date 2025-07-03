@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #50e3c2;
+  --red-color: #f26d6d;
+  --green-color: #7ed6a5;
+  --background-color: #101010;
+  --text-color: #ffffff;
+  --border-color: #333333;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  h1,h2,p {
+    font-weight: 500;
+  }
+}
+
+.app {
+  max-width: 95%;
+  margin: 0 auto;
+}
