@@ -1,2 +1,0 @@
-## 🎫 Ticket Details
-DEFECT PR
